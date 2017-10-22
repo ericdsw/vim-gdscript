@@ -108,10 +108,10 @@ syn match   gdscriptEscape	"\\$"
 
 "if exists("gdscript_space_error_highlight")
   " trailing whitespace
-  syn match   gdscriptSpaceError	display excludenl "\s\+$"
+  "syn match   gdscriptSpaceError	display excludenl \"\s\+$"
   " mixed tabs and spaces
-  syn match   gdscriptSpaceError	display " \+\t"
-  syn match   gdscriptSpaceError	display "\t\+ "
+  "syn match   gdscriptSpaceError	display \" \+\t"
+  "syn match   gdscriptSpaceError	display \"\t\+ "
 "endif
 
 " Sync at the beginning of class, function, or method definition.
