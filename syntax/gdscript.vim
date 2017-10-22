@@ -25,8 +25,8 @@ syn keyword gdscriptConditional	elif else if
 syn keyword gdscriptRepeat	for while
 syn keyword gdscriptOperator	and in not or extends
 syn match gdscriptInclude	"^extends"
-syn keyword gdscriptStorage	export
-syn keyword gdscriptType	var const int real bool String
+syn keyword gdscriptStorage	export setget
+syn keyword gdscriptType	var const int real bool String signal
 syn keyword gdscriptStructure	enum
 
 syn keyword gdscriptType        Vector2 Size2 Rect2 Vector3 Matrix32 Plane
